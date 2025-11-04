@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/d3p1/nextjs-3d-baked-scene/compare/v1.3.1...v1.3.2) (2025-11-04)
+
+
+### Bug Fixes
+
+* adjust import of glsl files in build step [[#1](https://github.com/d3p1/nextjs-3d-baked-scene/issues/1)] ([2bfd319](https://github.com/d3p1/nextjs-3d-baked-scene/commit/2bfd319b4585371f12c87c9f624a7ae9017538b8))
+
 ## [1.3.1](https://github.com/d3p1/nextjs-3d-baked-scene/compare/v1.3.0...v1.3.1) (2025-11-04)
 
 
