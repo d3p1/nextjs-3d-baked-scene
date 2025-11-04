@@ -1,3 +1,17 @@
+# [1.3.0](https://github.com/d3p1/nextjs-3d-baked-scene/compare/v1.2.0...v1.3.0) (2025-11-04)
+
+
+### Bug Fixes
+
+* replace room model by portal [[#1](https://github.com/d3p1/nextjs-3d-baked-scene/issues/1)] ([dff7519](https://github.com/d3p1/nextjs-3d-baked-scene/commit/dff7519daa18bb7ca50aa6b0e17b41a392096fd2))
+
+
+### Features
+
+* add glsl file support [[#1](https://github.com/d3p1/nextjs-3d-baked-scene/issues/1)] ([d59fe11](https://github.com/d3p1/nextjs-3d-baked-scene/commit/d59fe11f56f1a4755c3d5ccc787e02af6bac73cd))
+* improve final scene [[#1](https://github.com/d3p1/nextjs-3d-baked-scene/issues/1)] ([37f4bfa](https://github.com/d3p1/nextjs-3d-baked-scene/commit/37f4bfa05661da8fbf83cd2738f65f7bec0d74c0))
+* improve portal scene [[#1](https://github.com/d3p1/nextjs-3d-baked-scene/issues/1)] ([7b42e61](https://github.com/d3p1/nextjs-3d-baked-scene/commit/7b42e6139aea065ec977008dbe09203eb5eb9b0e))
+
 # [1.2.0](https://github.com/d3p1/nextjs-3d-baked-scene/compare/v1.1.0...v1.2.0) (2025-11-03)
 
 
