@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-screen h-screen grid place-items-center bg-neutral-900">
+      <body className="w-screen h-screen grid place-items-center">
         {children}
       </body>
     </html>
