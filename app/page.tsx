@@ -4,7 +4,7 @@
  */
 'use client'
 
-import {Html, OrbitControls, useGLTF} from '@react-three/drei'
+import {Gltf, Html, OrbitControls} from '@react-three/drei'
 import {Canvas} from '@react-three/fiber'
 import {Suspense} from 'react'
 
@@ -16,17 +16,16 @@ const Loader = () => {
   )
 }
 
-const Room = () => {
-  const model = useGLTF('/nextjs-3d-baked-scene/room.baked.glb')
-  return <primitive object={model.scene} />
+const Portal = () => {
+  return <Gltf src="/nextjs-3d-baked-scene/portal.glb" />
 }
 
 export default function Page() {
   return (
-    <Canvas camera={{position: [1, 1, 1]}}>
+    <Canvas camera={{position: [1, 1, 4]}}>
       <OrbitControls maxPolarAngle={Math.PI / 3} />
       <Suspense fallback={<Loader />}>
-        <Room />
+        <Portal />
       </Suspense>
     </Canvas>
   )
