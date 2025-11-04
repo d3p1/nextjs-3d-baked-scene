@@ -2,8 +2,8 @@
  * @description Portal material
  * @author      C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)
  */
-import portalFragmentShader from '@/app/lib/shader/portal/fragment.glsl'
 import portalVertexShader from '@/app/lib/shader/portal/vertex.glsl'
+import portalFragmentShader from '@/app/lib/shader/portal/fragment.glsl'
 import {shaderMaterial} from '@react-three/drei'
 import {extend} from '@react-three/fiber'
 import * as THREE from 'three'
